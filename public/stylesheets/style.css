@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Tahoma;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.error_msg {
+  color: pink;
+}
+
+.info_msg {
+  color: green;
+}
+
+#addtask_text {
+  width: 50%;
+}
+
+.navigation {
+  padding-bottom: 20px;
+}
+
+.delete_form, .done_form {
+  display: inline;
+}
+
+.done_button {
+  background-color: green;
+  color: white;
+}
+
+.delete_button {
+  background-color: pink;
+  color: black;
+}
+
+.all_done_button {
+  background-color: blueviolet ;
+  color: white;
+}
+
+.alldone {
+  padding-top: 20px;
+}
