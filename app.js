@@ -9,11 +9,11 @@ var session = session = require('express-session');
 var mongoose = require('mongoose');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
 
 var app = express();
 
-var db_url = "mongodb://dbUser:password23@127.0.0.1:27017/todo?authSource=admin";
+//var db_url = "mongodb://dbUser:password23@127.0.0.1:27017/todo?authSource=admin";
+var db_url = process.env.MONGO_URL;
 
 // Add connect to mongoose.
 mongoose.connect(db_url, { usemongoClient: true })
